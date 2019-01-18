@@ -1,0 +1,114 @@
+body{
+  background-color: #040a26;
+  --background-color:#040a26;
+  --brighter-win:#06165F;
+  --duller-loss:#030E41;
+}
+th{
+  color:rgba(215,7,94,0.95);
+  font-size: 25px;
+}
+.darkback{
+  background-color: #040a26;
+}
+.padded-multiline {
+  line-height: 1.4;
+  padding: 2px 0;
+  width: 400px;
+}
+.padded-multiline span {
+  background: linear-gradient(to right, #c0c, red);
+  color: #fff;
+  display: inline;
+  padding: 0.45rem;
+  font-size: 40px;
+  font-family: 'Thasadith', sans-serif;
+  margin-left: 20px;
+
+  /* Needs prefixing */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.jumbotron{
+  background-color: transparent;
+}
+#title{
+  padding-top: 20px;
+  line-height:1;
+  font-family: 'Thasadith', sans-serif;
+  color:rgba(255,255,255,1);
+  font-size: 100px;
+  padding-left: 20px;
+  background-color: transparent;
+  margin-bottom: 60px;
+
+}
+#user_address{
+  font-size: 30px;
+}
+.grad{
+  height: 100px;
+  border-radius:5%;
+  padding: 2px;
+  padding-left: 20px;
+  color:rgba(255,255,255,0.75);
+  font-family: 'Thasadith', sans-serif;
+  margin-bottom: 20px;
+}
+.container{
+  font-family: Titillium, sans-serif;
+}
+.results{
+  width: 100%;
+
+}
+.resultback{
+  color:rgba(255,255,255,0.5);
+  font-family: 'Thasadith', sans-serif;
+  background-color: var(--brighter-win);
+  border-radius:10px;
+  padding: 5px;
+}
+.resultback2{
+  color:rgba(255,255,255,0.5);
+  font-family: 'Thasadith', sans-serif;
+
+  background-color: var(--duller-loss);
+  border-radius:10px;
+  padding: 5px;
+}
+.imback{
+  width: 50%;
+  position: relative;
+}
+#backgroundLogo{
+  left:50%;
+  width:50%;
+  position: absolute;
+
+}
+
+#logo{
+  width: 50%;
+}
+img{
+
+}
+.container1{
+  position: relative;
+}
+.container1 .jumbotron{
+  position: relative;
+}
+.containers{
+  margin-bottom:60px;
+}
+.whole{
+  width: 100%;
+}
+.padd{
+  padding-left: 2px;
+}
+.padd table {
+  border: 2px solid black;s
+}
