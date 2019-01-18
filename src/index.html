@@ -10,94 +10,110 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/homePage.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins|Staatliches|Thasadith|Titillium+Web|PT+Sans" rel="stylesheet">
 
 
   </head>
 
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default darkback2">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">
         <img id = "logo" alt="Brand" src="css/sbiconsmall.png">
       </a>
     </div>
+    <a id = "toBetPage" href = "betpage.html"><button type="button" class="btn btn-default navbar-btn buttonOntop" >Bet!</button>
+    </a>
+    <a id = "toBetPage" href = "betpage.html"><button type="button" class="btn btn-default navbar-btn buttonOntop" >Bet!</button>
+    </a>
+    <a id = "toBetPage" href = "betpage.html"><button type="button" class="btn btn-default navbar-btn buttonOntop" >Bet!</button>
+    </a>
   </div>
 </nav>
 
-    <div class="prof">
-      <img id = "backgroundLogo"src="css/profback.jpg" alt="">
+    <div class="container">
 
-    </div>
 
-      <div class="jumbotron darkback imback">
 
-        <h1 class="" id="title">
-          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-Profile
-        </h1>
-        <div class="container">
-            <p class=" padded-multiline"><span>Current User:<br><span id = "user_address">-0000ABCDXXXXX</span> </span></p>
+      <div class="prof">
+        <img id = "backgroundLogo"src="css/profback.jpg" alt="">
+
+      </div>
+
+        <div class="jumbotron darkback imback">
+
+          <h1 class="" id="title">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+  Profile
+          </h1>
+          <div class="container">
+              <p class=" padded-multiline"><span>Current User:<br><span id = "user_address">-0000ABCDXXXXX</span> </span></p>
+          </div>
+
+        </div>
+
+
+
+      <div class="jumbotron grad darkback">
+        <h1><i class="fa fa-bolt fa-fw" aria-hidden="true"></i>
+  Results</h1>
+      </div>
+
+      <div class="results">
+        <div class="container containers">
+
+          <div class="row">
+          <div class="col-lg-6 alert-success resultback">
+            <div class="jumbotron resultback">
+              <h1>Wins</h1>
+            </div>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">Match ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Amount</th>
+                </tr>
+              </thead>
+              <tbody id="wins_table">
+
+              </tbody>
+            </table>
+          </div>
+
+
+          <div class="col-lg-6 alert-warning resultback2 ">
+            <div class="jumbotron resultback2">
+              <h1>Losses</h1>
+            </div>
+            <table id="losses" class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">Match ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Amount</th>
+                </tr>
+              </thead>
+              <tbody id="losses_table">
+
+              </tbody>
+            </table>
+          </div>
+            </table>
+          </div>
         </div>
 
       </div>
 
-
-
-    <div class="jumbotron grad darkback">
-      <h1><i class="fa fa-bolt fa-fw" aria-hidden="true"></i>
-Results</h1>
-    </div>
-
-    <div class="results">
-      <div class="container containers">
-
-        <div class="row">
-        <div class="col-lg-6 alert-success resultback">
-          <div class="jumbotron resultback">
-            <h1>Wins</h1>
-          </div>
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">Match ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">Amount</th>
-              </tr>
-            </thead>
-            <tbody id="wins_table">
-
-            </tbody>
-          </table>
-        </div>
-
-
-        <div class="col-lg-6 alert-warning resultback2 ">
-          <div class="jumbotron resultback2">
-            <h1>Losses</h1>
-          </div>
-          <table id="losses" class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">Match ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">Amount</th>
-              </tr>
-            </thead>
-            <tbody id="losses_table">
-
-            </tbody>
-          </table>
-        </div>
-          </table>
-        </div>
       </div>
 
-    </div>
 
     </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

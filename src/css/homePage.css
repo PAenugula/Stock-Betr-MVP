@@ -7,6 +7,7 @@ body{
 th{
   color:rgba(215,7,94,0.95);
   font-size: 25px;
+  font-family: 'Montserrat',sans-serif;
 }
 .darkback{
   background-color: #040a26;
@@ -23,7 +24,7 @@ th{
   padding: 0.45rem;
   font-size: 40px;
   font-family: 'Thasadith', sans-serif;
-  margin-left: 20px;
+  margin-left: 0px;
 
   /* Needs prefixing */
   box-decoration-break: clone;
@@ -33,7 +34,7 @@ th{
   background-color: transparent;
 }
 #title{
-  padding-top: 20px;
+  padding-top: 0px;
   line-height:1;
   font-family: 'Thasadith', sans-serif;
   color:rgba(255,255,255,1);
@@ -111,4 +112,28 @@ img{
 }
 .padd table {
   border: 2px solid black;s
+}
+.buttonOntop{
+  margin: 0;
+  margin-top: 4px;
+  padding: 0px 5px;
+  font-size: 30px;
+  background: transparent;
+  border-color: transparent;
+  color: white;
+  font-family: 'Staatliches',sans-serif;
+
+}
+.buttonOntop:hover{
+
+  background: rgba(255,0,0,0.0);
+  border-color: transparent;
+  color: white;
+  font-family: 'Staatliches',sans-serif;
+
+}
+.darkback2{
+  background-color:rgb(10,23,91);
+  border:0px transparent;
+  height: 50px;
 }
