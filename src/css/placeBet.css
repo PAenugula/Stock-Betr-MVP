@@ -1,0 +1,67 @@
+body{
+  background-color: #040a26;
+  --background-color:#040a26;
+  --brighter-win:#06165F;
+  --duller-loss:#030E41;
+}
+.jumbotron{
+  background-color: transparent;
+}
+.alert-warning{
+  background-color: transparent;
+  color: var(--brighter-win);
+  color: white;
+  font-family: 'Thasadith',sans-serif;
+}
+#Name{
+  font-size: 60px;
+}
+.gradBack{
+  background:linear-gradient(to right, #c0c, red);
+  border-color: transparent;
+  width: 120px;
+  font-size: 25px;
+}
+hr{
+  width: 80%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid gold;
+  padding: 0;
+}
+#EthereumCost{
+  font-size:60px;
+  background: linear-gradient(var(--background-color) 50%,var(--duller-loss));
+  border-radius:0px;
+  margin-bottom: 0px;
+  color: gold;
+}
+.option{
+  background-color: var(--brighter-win);
+  background: linear-gradient(var(--background-color) 60%,#c0c);
+
+}
+#first{
+  font-size: 50px;
+  font-family: 'Montserrat',sans-serif;
+  background-color: transparent;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 20px;
+}
+#second{
+  font-size: 50px;
+  font-family: 'Montserrat',sans-serif;
+  background-color: transparent;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 20px;
+}
+
+.op1{
+  background-color: transparent;
+}
+.op2{
+  background-color:transparent;
+}

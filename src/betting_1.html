@@ -9,23 +9,31 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/placeBet.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins|Staatliches|Thasadith|Titillium+Web|PT+Sans" rel="stylesheet">
+
+
 </head>
 <body>
 	<div class="container-fluid" style="height: 100%">
 		<div class="alert-warning" style="padding-top: 1em; padding-bottom: 1em;">
-			<a class="btn btn-warning" style="margin-left: 3em" href="betpage.html">Back!</a>
-			<h1 class="display-4 text-center" id="Name">This is the betting page</h1>
-			<p class="lead text-center" id="Description">This is the description</p>
-			<p class="lead text-center" id="EthereumCost"><< Ethereum: ____ >></p>
+			<a class="btn btn-success gradBack" style="margin-left: 3em" href="betpage.html">Back</a>
+			<h1 class="display-4 text-center" id="Name">Place your Bet!</h1>
+			<hr>
+			<p class="lead text-center" id="Description">description</p>
+			<div class="jumbotron">
+					<p class="lead text-center" id="EthereumCost"><< Ethereum: ____ >></p>
+			</div>
 		</div>
-		<div class="row text-center">
-			<div class="col-lg-6 alert-success" style="padding-top: 15em; padding-bottom: 15em;">
-				<button class="btn btn-success btn-lg" id="first" onclick="App.vote(1)">
+		<div class="row text-center option">
+			<div class="col-lg-6 alert-success op1" style="padding-top: 15em; padding-bottom: 15em;">
+				<button class="btn btn-success btn-lg option1" id="first" onclick="App.vote(1)">
 					First Option
 				</button>
 			</div>
-			<div class="col-lg-6 alert-info" style="padding-top: 15em;  padding-bottom: 15em;">
-				<button class="btn btn-lg btn-info" id="second" onclick="App.vote(2)">
+			<div class="col-lg-6 alert-info op2" style="padding-top: 15em;  padding-bottom: 15em;">
+				<button class="btn btn-lg btn-info option1" id="second" onclick="App.vote(2)">
 					Second Option
 				</button>
 			</div>
